@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Sense Beacon</title>
+<meta name="description" content="A personal website of Daniel Knox. Kent, UK">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/owl.carousel.css">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/owl.theme.css">
+
+
+  <link href="https://www.danielknox.co.uk/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+
+<link href="https://www.danielknox.co.uk/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.danielknox.co.uk/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">Daniel Knox</a></h1>
+    <p class="sidebar-p">I am passionate about giving people the opportunity to engage with all forms of technology, engineering and craft. </p>
+    <ul class="sidebar-menu">
+      
+      
+        <li><a href="https://www.danielknox.co.uk/">Home</a></li>
+      
+        <li><a href="https://www.danielknox.co.uk/about/">About</a></li>
+      
+        <li><a href="https://www.danielknox.co.uk/education/">Education</a></li>
+      
+        <li><a href="https://www.danielknox.co.uk/contact/">Get in touch</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  
+  
+</p>
+
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/">Daniel Knox</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>Sense Beacon</h1>
+         <p>A low-powered environmental sensing device, which combines LoRaWAN for long range data transmission and Bluetooth LE for presence announcement, and device maintenance.
+</p>
+
+<p>The Sense Beacon is designed to utilise a NRF52 micro-processor with my &lsquo;Xbee Format&rsquo; LoRaWAN module (based on the RN2483). This provides a platform that, not only, can communicate over long distances, but also communicate locally. The purpose of the BLE communication (provided by the NRF52) is to provide a short-ranged beaconing service based on Eddystone. Two Eddystone frame types are used, the TLM frame provides telemetry data (voltage/time alive/soc temperature) and the UID frame is registered with the Google Beacon Platform to provide proximity based information.</p>
+
+<p>The Sense Beacon uses an RTOS to periodically take environmental readings from I2C sensors and, once a number of samples have been taken, transmit these over LoRaWAN; the RTOS also maintains the Eddystone beaconing. The code can identify and appropriately handle a variety of network issues, has exponential back off with jittering when attempting to resend messages and takes precautions for thread safety.</p>
+
+<p>Upon power-on the beacon briefly enters a period whereby a user can reconfigure many of the settings of the sense device; if a user is connected to the sense device it will remain in this state until configuration is complete - after this the battery must be removed and re-inserted to re-enable device configuration.</p>
+
+<p>The power efficiency of the device allows it to run from a single coin cell battery, but external pin-outs are provided in case a larger battery is required for current-hungry sensors. Whilst I intend the Sense Device to use LoRaWAN, the Xbee header does provide the ability to swap this device out for Zigbee / other XBEE format daughterboard.</p>
+         <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = '';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="//disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://www.danielknox.co.uk/js/jquery.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/bootstrap.min.js"> </script>
+<script src="https://www.danielknox.co.uk/js/jquery.cookie.js"> </script>
+<script src="https://www.danielknox.co.uk/js/ekko-lightbox.js"></script>
+<script src="https://www.danielknox.co.uk/js/jquery.scrollTo.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/masonry.pkgd.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/owl.carousel.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/front.js"></script>
+
+</body>
+</html>

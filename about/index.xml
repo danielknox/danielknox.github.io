@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-rsses on Daniel Knox</title>
+    <link>https://www.danielknox.co.uk/about/index.xml</link>
+    <description>Recent content in About-rsses on Daniel Knox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy;2016 Daniel Knox</copyright>
+    <lastBuildDate>Sun, 13 Nov 2016 21:05:33 +0530</lastBuildDate>
+    <atom:link href="https://www.danielknox.co.uk/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About me</title>
+      <link>https://www.danielknox.co.uk/about/</link>
+      <pubDate>Sun, 13 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://www.danielknox.co.uk/about/</guid>
+      <description>&lt;p&gt;I manage the day-to-day running of ‘The Shed’, an open access workshop which provides a rapid prototyping facility for the School of Computing and the University of Kent.&lt;/p&gt;
+
+&lt;p&gt;My skills include: rapid prototyping and design, conducting qualitative research, user-centered design, programming in C and developing &amp;lsquo;Internet of Things&amp;rsquo; applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.danielknox.co.uk/img/about.jpg&#34; alt=&#34;This is me&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
