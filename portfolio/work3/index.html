@@ -64,16 +64,16 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>Sense Beacon</h1>
-         <p>A low-powered environmental sensing device, which combines LoRaWAN for long range data transmission and Bluetooth LE for presence announcement, and device maintenance.
+         <p>A low-powered environmental sensing device, which combines LoRaWAN™ for long range data transmission and Bluetooth LE for presence announcement, and device maintenance.
 </p>
 
-<p>The Sense Beacon is designed to utilise a NRF52 micro-processor with my &lsquo;Xbee Format&rsquo; LoRaWAN module (based on the RN2483). This provides a platform that, not only, can communicate over long distances, but also communicate locally. The purpose of the BLE communication (provided by the NRF52) is to provide a short-ranged beaconing service based on Eddystone. Two Eddystone frame types are used, the TLM frame provides telemetry data (voltage/time alive/soc temperature) and the UID frame is registered with the Google Beacon Platform to provide proximity based information.</p>
+<p>The Sense Beacon is designed to utilise a NRF52 micro-processor with my &lsquo;Xbee Format&rsquo; LoRaWAN™ module (based on the RN2483). This provides a platform that, not only, can communicate over long distances, but also communicate locally. The purpose of the BLE communication (provided by the NRF52) is to provide a short-ranged beaconing service based on Eddystone. Two Eddystone frame types are used, the TLM frame provides telemetry data (voltage/time alive/soc temperature) and the UID frame is registered with the Google Beacon Platform to provide proximity based information.</p>
 
-<p>The Sense Beacon uses an RTOS to periodically take environmental readings from I2C sensors and, once a number of samples have been taken, transmit these over LoRaWAN; the RTOS also maintains the Eddystone beaconing. The code can identify and appropriately handle a variety of network issues, has exponential back off with jittering when attempting to resend messages and takes precautions for thread safety.</p>
+<p>The Sense Beacon uses an RTOS to periodically take environmental readings from I2C sensors and, once a number of samples have been taken, transmit these over LoRaWAN™; the RTOS also maintains the Eddystone beaconing. The code can identify and appropriately handle a variety of network issues, has exponential back off with jittering when attempting to resend messages and takes precautions for thread safety.</p>
 
 <p>Upon power-on the beacon briefly enters a period whereby a user can reconfigure many of the settings of the sense device; if a user is connected to the sense device it will remain in this state until configuration is complete - after this the battery must be removed and re-inserted to re-enable device configuration.</p>
 
-<p>The power efficiency of the device allows it to run from a single coin cell battery, but external pin-outs are provided in case a larger battery is required for current-hungry sensors. Whilst I intend the Sense Device to use LoRaWAN, the Xbee header does provide the ability to swap this device out for Zigbee / other XBEE format daughterboard.</p>
+<p>The power efficiency of the device allows it to run from a single coin cell battery, but external pin-outs are provided in case a larger battery is required for current-hungry sensors. Whilst I intend the Sense Device to use LoRaWAN™, the Xbee header does provide the ability to swap this device out for Zigbee / other XBEE format daughterboard.</p>
          <div id="disqus_thread"></div>
 <script type="text/javascript">
 

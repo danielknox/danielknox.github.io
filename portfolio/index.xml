@@ -11,7 +11,7 @@
     <atom:link href="https://www.danielknox.co.uk/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Antweight Custer Bot</title>
+      <title>Antweight Cluster Bot</title>
       <link>https://www.danielknox.co.uk/portfolio/work1/</link>
       <pubDate>Sun, 13 Nov 2016 18:25:22 +0530</pubDate>
       
@@ -34,16 +34,16 @@
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
       <guid>https://www.danielknox.co.uk/portfolio/work3/</guid>
-      <description>&lt;p&gt;A low-powered environmental sensing device, which combines LoRaWAN for long range data transmission and Bluetooth LE for presence announcement, and device maintenance.
+      <description>&lt;p&gt;A low-powered environmental sensing device, which combines LoRaWAN™ for long range data transmission and Bluetooth LE for presence announcement, and device maintenance.
 &lt;/p&gt;
 
-&lt;p&gt;The Sense Beacon is designed to utilise a NRF52 micro-processor with my &amp;lsquo;Xbee Format&amp;rsquo; LoRaWAN module (based on the RN2483). This provides a platform that, not only, can communicate over long distances, but also communicate locally. The purpose of the BLE communication (provided by the NRF52) is to provide a short-ranged beaconing service based on Eddystone. Two Eddystone frame types are used, the TLM frame provides telemetry data (voltage/time alive/soc temperature) and the UID frame is registered with the Google Beacon Platform to provide proximity based information.&lt;/p&gt;
+&lt;p&gt;The Sense Beacon is designed to utilise a NRF52 micro-processor with my &amp;lsquo;Xbee Format&amp;rsquo; LoRaWAN™ module (based on the RN2483). This provides a platform that, not only, can communicate over long distances, but also communicate locally. The purpose of the BLE communication (provided by the NRF52) is to provide a short-ranged beaconing service based on Eddystone. Two Eddystone frame types are used, the TLM frame provides telemetry data (voltage/time alive/soc temperature) and the UID frame is registered with the Google Beacon Platform to provide proximity based information.&lt;/p&gt;
 
-&lt;p&gt;The Sense Beacon uses an RTOS to periodically take environmental readings from I2C sensors and, once a number of samples have been taken, transmit these over LoRaWAN; the RTOS also maintains the Eddystone beaconing. The code can identify and appropriately handle a variety of network issues, has exponential back off with jittering when attempting to resend messages and takes precautions for thread safety.&lt;/p&gt;
+&lt;p&gt;The Sense Beacon uses an RTOS to periodically take environmental readings from I2C sensors and, once a number of samples have been taken, transmit these over LoRaWAN™; the RTOS also maintains the Eddystone beaconing. The code can identify and appropriately handle a variety of network issues, has exponential back off with jittering when attempting to resend messages and takes precautions for thread safety.&lt;/p&gt;
 
 &lt;p&gt;Upon power-on the beacon briefly enters a period whereby a user can reconfigure many of the settings of the sense device; if a user is connected to the sense device it will remain in this state until configuration is complete - after this the battery must be removed and re-inserted to re-enable device configuration.&lt;/p&gt;
 
-&lt;p&gt;The power efficiency of the device allows it to run from a single coin cell battery, but external pin-outs are provided in case a larger battery is required for current-hungry sensors. Whilst I intend the Sense Device to use LoRaWAN, the Xbee header does provide the ability to swap this device out for Zigbee / other XBEE format daughterboard.&lt;/p&gt;</description>
+&lt;p&gt;The power efficiency of the device allows it to run from a single coin cell battery, but external pin-outs are provided in case a larger battery is required for current-hungry sensors. Whilst I intend the Sense Device to use LoRaWAN™, the Xbee header does provide the ability to swap this device out for Zigbee / other XBEE format daughterboard.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@
     </item>
     
     <item>
-      <title>LoRaWAN</title>
+      <title>LoRaWAN™</title>
       <link>https://www.danielknox.co.uk/portfolio/work2/</link>
       <pubDate>Sun, 13 Nov 2016 19:41:01 +0530</pubDate>
       
@@ -81,7 +81,7 @@
       <description>&lt;p&gt;A free, public system which enables groups of makers, students and local government to deploy &amp;lsquo;Internet Of Things&amp;rsquo; type devices, and have them communicate over large distances.
 &lt;/p&gt;
 
-&lt;p&gt;LoRaWAN is a protocol designed for creating large-scale public networks; the technology allows for sensors to talk to the internet without 3G or WiFi. LoRaWAN is predominantly based on a star topography, with a single gateway serving many nodes. Community crowdsourced projects, such as The Things Network, aim to provide access to this technology by deploying gateways globally that others can freely connect to.&lt;/p&gt;
+&lt;p&gt;LoRaWAN™ is a protocol designed for creating large-scale public networks; the technology allows for sensors to talk to the internet without 3G or WiFi. LoRaWAN™ is predominantly based on a star topography, with a single gateway serving many nodes. Community crowdsourced projects, such as The Things Network, aim to provide access to this technology by deploying gateways globally that others can freely connect to.&lt;/p&gt;
 
 &lt;p&gt;In the coming months a number of these gateways will be built and installed across Kent. The ultimate aim is to provide a free, public system that would allow groups of makers, students, local government, etc. to design and install devices to communicate with the Internet.&lt;/p&gt;</description>
     </item>
@@ -123,6 +123,24 @@
 &lt;p&gt;The chassis uses a simple &amp;lsquo;A&amp;rsquo; frame design and is produced on a hobby-grade FDM 3D printer - this allows me to keep more spare parts as I am expecting to incur more damage with this robot. The wheels are located on the outside of the robot and are made from neoprene with aluminium hubs. Whilst exposed wheels may seem like a dumb idea, it helps Rembrandt to counter the effect of the spinner weapon; I also use trimming to compensate the &amp;lsquo;gyro&amp;rsquo; effect as the spinner accelerates.&lt;/p&gt;
 
 &lt;p&gt;Rembrandt is yet to be proved in battle and is still going through some minor design revisions to ensure its internals are as secure as possible, but hopefully it&amp;rsquo;ll put on a good show!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LoRaWAN™ Xbee Adapter</title>
+      <link>https://www.danielknox.co.uk/portfolio/work7/</link>
+      <pubDate>Sat, 19 Nov 2016 19:53:42 +0530</pubDate>
+      
+      <guid>https://www.danielknox.co.uk/portfolio/work7/</guid>
+      <description>&lt;p&gt;An adapter for LoRaWAN™
+&lt;/p&gt;
+
+&lt;p&gt;The RN2483 is a module that embeds the LoRaWAN™ Class A protocol. This allows a developer to rapidly connect to public/privately owned LoRaWAN compliant networks.&lt;/p&gt;
+
+&lt;p&gt;As I use to use a lot of Xbee devices to create Zigbee based networks, I&amp;rsquo;ve become quite use to the format (despite its breadboard unfriendly format). As such, I designed a small breakout shield to allow me to drop-in the RN2483 into existing designs.&lt;/p&gt;
+
+&lt;p&gt;By ditching the &amp;lsquo;arrow&amp;rsquo; shape of the Xbee, I&amp;rsquo;m able to support two antenna connectors (433 MHz and 868 MHz). The pad for the antenna connectors allow the choice between edge SMA, SMT UFL or a little bit of wire, whichever best suits the desired application.&lt;/p&gt;
+
+&lt;p&gt;Whilst I currently only breakout the required, power, serial and reset pins. A future version will route the extra GPIO in a similar way as the Digi Xbees.&lt;/p&gt;</description>
     </item>
     
   </channel>

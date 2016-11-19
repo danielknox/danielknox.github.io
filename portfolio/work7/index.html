@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>LoRaWAN™</title>
+<title>LoRaWAN™ Xbee Adapter</title>
 <meta name="description" content="A personal website of Daniel Knox. Kent, UK">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -63,13 +63,17 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>LoRaWAN™</h1>
-         <p>A free, public system which enables groups of makers, students and local government to deploy &lsquo;Internet Of Things&rsquo; type devices, and have them communicate over large distances.
+         <h1>LoRaWAN™ Xbee Adapter</h1>
+         <p>An adapter for LoRaWAN™
 </p>
 
-<p>LoRaWAN™ is a protocol designed for creating large-scale public networks; the technology allows for sensors to talk to the internet without 3G or WiFi. LoRaWAN™ is predominantly based on a star topography, with a single gateway serving many nodes. Community crowdsourced projects, such as The Things Network, aim to provide access to this technology by deploying gateways globally that others can freely connect to.</p>
+<p>The RN2483 is a module that embeds the LoRaWAN™ Class A protocol. This allows a developer to rapidly connect to public/privately owned LoRaWAN compliant networks.</p>
 
-<p>In the coming months a number of these gateways will be built and installed across Kent. The ultimate aim is to provide a free, public system that would allow groups of makers, students, local government, etc. to design and install devices to communicate with the Internet.</p>
+<p>As I use to use a lot of Xbee devices to create Zigbee based networks, I&rsquo;ve become quite use to the format (despite its breadboard unfriendly format). As such, I designed a small breakout shield to allow me to drop-in the RN2483 into existing designs.</p>
+
+<p>By ditching the &lsquo;arrow&rsquo; shape of the Xbee, I&rsquo;m able to support two antenna connectors (433 MHz and 868 MHz). The pad for the antenna connectors allow the choice between edge SMA, SMT UFL or a little bit of wire, whichever best suits the desired application.</p>
+
+<p>Whilst I currently only breakout the required, power, serial and reset pins. A future version will route the extra GPIO in a similar way as the Digi Xbees.</p>
          <div id="disqus_thread"></div>
 <script type="text/javascript">
 
