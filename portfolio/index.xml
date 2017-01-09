@@ -7,8 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy;2016 Daniel Knox</copyright>
-    <lastBuildDate>Sun, 13 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jan 2017 15:46:56 +0000</lastBuildDate>
     <atom:link href="https://www.danielknox.co.uk/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Zero Security</title>
+      <link>https://www.danielknox.co.uk/portfolio/work8/</link>
+      <pubDate>Mon, 09 Jan 2017 15:46:56 +0000</pubDate>
+      
+      <guid>https://www.danielknox.co.uk/portfolio/work8/</guid>
+      <description>&lt;p&gt;A home security device
+&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve recently purchased a new house and naturally it hosts a few home automation devices; such as: Phillips Hue, Nest Thermostat, Nest Protect and Amazon Alexa.&lt;/p&gt;
+
+&lt;p&gt;I really wanted to add OpenHab into the mix to improve the integration between some of these services and to do double duty as a home security camera - it doesn&amp;rsquo;t help to know if your house may be on fire, if you can&amp;rsquo;t actually see it to give you all the reason to ring the fire brigade!&lt;/p&gt;
+
+&lt;p&gt;As such, I utilised one of my spare Pi Zero&amp;rsquo;s to run OpenHab and Zoneminder. Naturally, out of the box this wouldn&amp;rsquo;t look very fancy, which just wouldn&amp;rsquo;t do. So some 3D modeling, and borrowing a bit of inspiration from the commercial &amp;lsquo;Canary&amp;rsquo; home security device, I came up with a nice plastic shell to hold all of the parts securely (snap fit&amp;rsquo;s and bosses included!).&lt;/p&gt;
+
+&lt;p&gt;The resulting device should get the highly important Wife Acceptance Factor.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Antweight Cluster Bot</title>
