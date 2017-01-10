@@ -7,8 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy;2016 Daniel Knox</copyright>
-    <lastBuildDate>Mon, 09 Jan 2017 15:46:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jan 2017 09:29:55 +0000</lastBuildDate>
     <atom:link href="https://www.danielknox.co.uk/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Autonomous Boat Ver.1 </title>
+      <link>https://www.danielknox.co.uk/portfolio/work9/</link>
+      <pubDate>Tue, 10 Jan 2017 09:29:55 +0000</pubDate>
+      
+      <guid>https://www.danielknox.co.uk/portfolio/work9/</guid>
+      <description>&lt;p&gt;An autonomous boat
+&lt;/p&gt;
+
+&lt;p&gt;Tinkersoc recently held a small challenge for some of the older Tinkerer&amp;rsquo;s, to build an autonomous boat using bottles as the main buoyancy aid; off-the-shelf autopilots were not allowed.&lt;/p&gt;
+
+&lt;p&gt;Our group decided to massively overkill this challenge:&lt;/p&gt;
+
+&lt;p&gt;Mechanically our boat comprised of an electronics box meant for submarines, Bulgin waterproof connectors for external connections (motors, radios, etc.), a spoiler with antenna mounting points, adjustable metal frame (to alter between stability vs turning ability) and 3D printed housings - the motors (2 for skid steering) were also re-machined to attached directly to our props.&lt;/p&gt;
+
+&lt;p&gt;For power we used a 16000mAh 4s Lipo, because we wanted a &amp;lsquo;reasonable&amp;rsquo; amount of battery-life. A redudant power supply also supplied the main electronics.&lt;/p&gt;
+
+&lt;p&gt;Electronics used an ARM processor, long-range Zigbee device for shore telemetry communication (with handheld receiver units), ESC&amp;rsquo;s with modified firmware to better monitor the motor status (current draw, temp, etc), a redundant control system for recovery (standard RC), Neo 8M GPS and compass, and finally a completely isolated radio system using GSM to locate the boat if it went missing.&lt;/p&gt;
+
+&lt;p&gt;Our boat was huge, had a bonkers draft, was extremely stable (except at full thrust where it would become tippy) and had go faster stripes.&lt;/p&gt;
+
+&lt;p&gt;Yeah, we&amp;rsquo;re cool&amp;hellip;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Zero Security</title>
