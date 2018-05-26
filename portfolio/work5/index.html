@@ -1,123 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-<head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Mac OS X version 5.2.0">
-<meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Antweight Spinner Bot</title>
-<meta name="description" content=
-"A personal website of Daniel Knox. Kent, UK">
-<meta name="viewport" content=
-"width=device-width, initial-scale=1">
+<meta name="description" content="A personal website of Daniel Knox. Kent, UK">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<link rel="stylesheet" href=
-"https://www.danielknox.co.uk/css/bootstrap.min.css">
-<link rel="stylesheet" href=
-"//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
-<link rel="stylesheet" href=
-"https://www.danielknox.co.uk/css/font-awesome.min.css">
-<link rel="stylesheet" href=
-"https://www.danielknox.co.uk/css/owl.carousel.css">
-<link rel="stylesheet" href=
-"https://www.danielknox.co.uk/css/owl.theme.css">
-<link href="https://www.danielknox.co.uk/css/style.blue.css" rel=
-"stylesheet" id="theme-stylesheet">
-<link href="https://www.danielknox.co.uk/css/custom.css" rel=
-"stylesheet">
-<link rel="shortcut icon" href=
-"https://www.danielknox.co.uk/img/favicon.png">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/owl.carousel.css">
+<link rel="stylesheet" href="https://www.danielknox.co.uk/css/owl.theme.css">
+
+
+  <link href="https://www.danielknox.co.uk/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+
+<link href="https://www.danielknox.co.uk/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.danielknox.co.uk/img/favicon.png">
+
 </head>
 <body>
-<div class="container-fluid row row-offcanvas row-offcanvas-left"
-id="all">
-<div id="sidebar" class=
-"col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas sidebar-content">
-<h1 class="sidebar-heading"><a href="/">Daniel Knox</a></h1>
-<p class="sidebar-p">I am passionate about giving people the
-opportunity to engage with all forms of technology, engineering and
-craft.</p>
-<ul class="sidebar-menu">
-<li><a href="https://www.danielknox.co.uk/">Home</a></li>
-<li><a href="https://www.danielknox.co.uk/about/">About</a></li>
-<li><a href=
-"https://www.danielknox.co.uk/education/">Education</a></li>
-<li><a href="https://www.danielknox.co.uk/contact/">Get in
-touch</a></li>
-</ul>
-<p class="social"></p>
-</div>
-<div class=
-"col-xs-12 col-sm-8 col-md-9 content-column white-background">
-<div class="small-navbar visible-xs"><button type="button"
-data-toggle="offcanvas" class=
-"btn btn-ghost pull-left">Menu</button>
-<h1 class="small-navbar-heading"><a href="/">Daniel Knox</a></h1>
-</div>
-<div class="row col-lg-8 content-column-content">
-<h1>Antweight Spinner Bot</h1>
-<p>My second bot for Tinkersoc’s ant-weight robot wars.</p>
-<p>TinkerSoc have now allowed destructive robots into their ‘ant
-weight’ robot wars. As before, bots have 150 grams’ weight limit
-and must fit within a 4” cubed box. To take advantage of this, I
-have decided to attempt to build a ‘spinner’ bot called
-‘Rembrandt’.</p>
-<p>Whereas ‘Orphan Black’ was designed to keep weight as low as
-possible, this robot utilises the full weight limit. As such,
-electronic control has moved to a more traditional RC setup with
-fail-safe. A brushless motor drives the main weapon - it is driven by a 12A ESC that
-uses my own version of Simon K’s firmware. In addition, to help protect the motor's bearings,
-the weapon is belt driven to provide slip during impacts.</p>
-<p>
-Because of the forces this robot is likely to experience, everything on the inside is appropiately
-strapped down and secured. The wheels are also more robust by using neoprene tyres with aluminium hubs.
-Their size also helps Rembrandt to counter the effect of the spinner weapon by providing more grip;
-in software I will also use some automatic trimming to compensate the ‘gyro’ effect as the
-spinner accelerates.</p>
-<p>Rembrandt is yet to be proved in battle and is still going
-through some minor design revisions to ensure its internals are as
-secure as possible, but hopefully it’ll put on a good show!</p>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">Daniel Knox</a></h1>
+    <p class="sidebar-p">I am passionate about giving people the opportunity to engage with all forms of technology, engineering and craft. </p>
+    <ul class="sidebar-menu">
+      
+      
+        <li><a href="https://www.danielknox.co.uk/">Home</a></li>
+      
+        <li><a href="https://www.danielknox.co.uk/about/">About</a></li>
+      
+        <li><a href="https://www.danielknox.co.uk/education/">Education</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  
+  
+</p>
 
-(function() {
-
-
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = '';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script> <noscript>Please enable JavaScript to view the <a href=
-"//disqus.com/?ref_noscript">comments powered by
-Disqus.</a></noscript> <a href="//disqus.com/" class=
-"dsq-brlink">comments powered by <span class=
-"logo-disqus">Disqus</span></a></div>
+  </div>
 </div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/">Daniel Knox</a></h1>
 </div>
-<script src="https://www.danielknox.co.uk/js/jquery.min.js">
-</script>
-<script src="https://www.danielknox.co.uk/js/bootstrap.min.js">
-</script>
-<script src="https://www.danielknox.co.uk/js/jquery.cookie.js">
-</script>
-<script src="https://www.danielknox.co.uk/js/ekko-lightbox.js">
-</script>
-<script src=
-"https://www.danielknox.co.uk/js/jquery.scrollTo.min.js">
-</script>
-<script src="https://www.danielknox.co.uk/js/masonry.pkgd.min.js">
-</script>
-<script src=
-"https://www.danielknox.co.uk/js/imagesloaded.pkgd.min.js">
-</script>
-<script src="https://www.danielknox.co.uk/js/owl.carousel.min.js">
-</script>
-<script src="https://www.danielknox.co.uk/js/front.js">
-</script>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>Antweight Spinner Bot</h1>
+         <p>My second bot for Tinkersoc&rsquo;s ant-weight robot wars.
+</p>
+
+<p>TinkerSoc have now allowed destructive robots into their ‘ant weight’ robot wars. As before, bots have 150 grams’ weight limit and must fit within a 4&rdquo; cubed box. To take advantage of this, I have decided to attempt to build a &lsquo;spinner&rsquo; bot called &lsquo;Rembrandt&rsquo;.</p>
+
+<p>Whereas &lsquo;Orphan Black&rsquo; was designed to keep weight as low as possible, this robot utilises the full weight limit. As such, electronic control has moved to a more traditional RC setup with fail-safe. A brushless motor drives the main weapon - a 30 gram, welded, steel hammer arm; this in turn is driven by a 12A ESC that uses my own version of Simon K&rsquo;s firmware.</p>
+
+<p>The chassis uses a simple &lsquo;A&rsquo; frame design and is produced on a hobby-grade FDM 3D printer - this allows me to keep more spare parts as I am expecting to incur more damage with this robot. The wheels are located on the outside of the robot and are made from neoprene with aluminium hubs. Whilst exposed wheels may seem like a dumb idea, it helps Rembrandt to counter the effect of the spinner weapon; I also use trimming to compensate the &lsquo;gyro&rsquo; effect as the spinner accelerates.</p>
+
+<p>Rembrandt is yet to be proved in battle and is still going through some minor design revisions to ensure its internals are as secure as possible, but hopefully it&rsquo;ll put on a good show!</p>
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://www.danielknox.co.uk/js/jquery.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/bootstrap.min.js"> </script>
+<script src="https://www.danielknox.co.uk/js/jquery.cookie.js"> </script>
+<script src="https://www.danielknox.co.uk/js/ekko-lightbox.js"></script>
+<script src="https://www.danielknox.co.uk/js/jquery.scrollTo.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/masonry.pkgd.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/owl.carousel.min.js"></script>
+<script src="https://www.danielknox.co.uk/js/front.js"></script>
+
 </body>
 </html>

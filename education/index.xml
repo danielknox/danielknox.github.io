@@ -9,16 +9,16 @@
     <copyright>&amp;copy;2016 Daniel Knox</copyright>
     <lastBuildDate>Sun, 13 Nov 2016 21:05:33 +0530</lastBuildDate>
     <atom:link href="https://www.danielknox.co.uk/education/index.xml" rel="self" type="application/rss+xml" />
-
+    
     <item>
       <title>Education</title>
       <link>https://www.danielknox.co.uk/education/</link>
       <pubDate>Sun, 13 Nov 2016 21:05:33 +0530</pubDate>
-
+      
       <guid>https://www.danielknox.co.uk/education/</guid>
       <description>
 
-&lt;h5 id=&#34;postgraduate-research&#34;&gt;Postgraduate Research&lt;/h5&gt;
+&lt;h5 id=&#34;phd-in-computer-science&#34;&gt;PhD in Computer Science&lt;/h5&gt;
 
 &lt;p&gt;As a member of the Computing Education Research Group, in the School of Computing, my research focuses on student engagement with disciplinary practices.&lt;/p&gt;
 
@@ -35,6 +35,6 @@
 &lt;p&gt;A professional development course in higher education teaching. It included discussions on theoretical approaches to teaching, socio-economics and political issues in higher education. Extended essays and teaching observations were a required part of the assessment. Following this course, I applied for and have been awarded &amp;ldquo;Associate Fellowship of the Higher Education Academy&amp;rdquo;.&lt;/p&gt;
 </description>
     </item>
-
+    
   </channel>
 </rss>

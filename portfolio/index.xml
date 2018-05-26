@@ -1,74 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio-rsses on Daniel Knox</title>
-    <link>https://www.danielknox.co.uk/portfolio/index.xml</link>
-    <description>Recent content in Portfolio-rsses on Daniel Knox</description>
+    <title>Portfolios on Daniel Knox</title>
+    <link>https://www.danielknox.co.uk/portfolio/</link>
+    <description>Recent content in Portfolios on Daniel Knox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <copyright>&amp;copy;2016 Daniel Knox</copyright>
-    <lastBuildDate>Tue, 10 Jan 2017 09:29:55 +0000</lastBuildDate>
-    <atom:link href="https://www.danielknox.co.uk/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2016 19:44:32 +0530</lastBuildDate>
     
-    <item>
-      <title>Autonomous Boat Ver.1 </title>
-      <link>https://www.danielknox.co.uk/portfolio/work9/</link>
-      <pubDate>Tue, 10 Jan 2017 09:29:55 +0000</pubDate>
-      
-      <guid>https://www.danielknox.co.uk/portfolio/work9/</guid>
-      <description>&lt;p&gt;An autonomous boat
-&lt;/p&gt;
-
-&lt;p&gt;Tinkersoc recently held a small challenge for some of the older Tinkerer&amp;rsquo;s, to build an autonomous boat using bottles as the main buoyancy aid; off-the-shelf autopilots were not allowed.&lt;/p&gt;
-
-&lt;p&gt;Our group decided to massively overkill this challenge:&lt;/p&gt;
-
-&lt;p&gt;Mechanically our boat comprised of an electronics box meant for submarines, Bulgin waterproof connectors for external connections (motors, radios, etc.), a spoiler with antenna mounting points, adjustable metal frame (to alter between stability vs turning ability) and 3D printed housings - the motors (2 for skid steering) were also re-machined to attached directly to our props.&lt;/p&gt;
-
-&lt;p&gt;For power we used a 16000mAh 4s Lipo, because we wanted a &amp;lsquo;reasonable&amp;rsquo; amount of battery-life. A redudant power supply also supplied the main electronics.&lt;/p&gt;
-
-&lt;p&gt;Electronics used an ARM processor, long-range Zigbee device for shore telemetry communication (with handheld receiver units), ESC&amp;rsquo;s with modified firmware to better monitor the motor status (current draw, temp, etc), a redundant control system for recovery (standard RC), Neo 8M GPS and compass, and finally a completely isolated radio system using GSM to locate the boat if it went missing.&lt;/p&gt;
-
-&lt;p&gt;Our boat was huge, had a bonkers draft, was extremely stable (except at full thrust where it would become tippy) and had go faster stripes.&lt;/p&gt;
-
-&lt;p&gt;Yeah, we&amp;rsquo;re cool&amp;hellip;.&lt;/p&gt;</description>
-    </item>
+	<atom:link href="https://www.danielknox.co.uk/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Zero Security</title>
-      <link>https://www.danielknox.co.uk/portfolio/work8/</link>
-      <pubDate>Mon, 09 Jan 2017 15:46:56 +0000</pubDate>
-      
-      <guid>https://www.danielknox.co.uk/portfolio/work8/</guid>
-      <description>&lt;p&gt;A home security device
-&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve recently purchased a new house and naturally it hosts a few home automation devices; such as: Phillips Hue, Nest Thermostat, Nest Protect and Amazon Alexa.&lt;/p&gt;
-
-&lt;p&gt;I really wanted to add OpenHab into the mix to improve the integration between some of these services and to do double duty as a home security camera - it doesn&amp;rsquo;t help to know if your house may be on fire, if you can&amp;rsquo;t actually see it to give you all the reason to ring the fire brigade!&lt;/p&gt;
-
-&lt;p&gt;As such, I utilised one of my spare Pi Zero&amp;rsquo;s to run OpenHab and Zoneminder. Naturally, out of the box this wouldn&amp;rsquo;t look very fancy, which just wouldn&amp;rsquo;t do. So some 3D modeling, and borrowing a bit of inspiration from the commercial &amp;lsquo;Canary&amp;rsquo; home security device, I came up with a nice plastic shell to hold all of the parts securely (snap fit&amp;rsquo;s and bosses included!).&lt;/p&gt;
-
-&lt;p&gt;The resulting device should get the highly important Wife Acceptance Factor.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Antweight Cluster Bot</title>
-      <link>https://www.danielknox.co.uk/portfolio/work1/</link>
-      <pubDate>Sun, 13 Nov 2016 18:25:22 +0530</pubDate>
-      
-      <guid>https://www.danielknox.co.uk/portfolio/work1/</guid>
-      <description>&lt;p&gt;My entry into Tinkersoc&amp;rsquo;s first ant-weight robot wars - Two 70 gram wedge-bots.
-&lt;/p&gt;
-
-&lt;p&gt;To celebrate the start of the new academic year, TinkerSoc hosted their first ‘ant weight’ combat match. The rules were simple: the competitors’ bots have 150 grams’ weight limit, must fit within a 4&amp;rdquo; cubed box and must not use overly destructive weaponry. I entered the only cluster-bot into the fight, two wedge-bot twins called &amp;lsquo;Orphan Black&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;Each &amp;lsquo;Orphan&amp;rsquo; was designed in Autodesk Inventor. They weigh just shy of 70grams and were primarily SLS printed in nylon for its strength and in places, flexibility. Each bot also has a light-weight, chemical etched, aluminium wedge. For electronic control I used a WeMos D1 mini (ESP-8266EX dev board) and a driver IC (TB6612FNG) to keep the weight down.&lt;/p&gt;
-
-&lt;p&gt;Thanks to the use of a Wii Numchuck, the Orphans proved to be highly maneuverable in combat; however, they fell victim to the large amount of WiFi in use at the freshers faire (each bot had a habit of dropping connection to their control stick). Being regularly one bot down, meant the Orphan Black team was quite easy to push about by the larger bots.&lt;/p&gt;
-
-&lt;p&gt;For future fights, I might move the Orhpans to a micro-processor with BLE, rather than WiFi, to provide the bots with better noise resilience in high-density places and to also allow people to participate with their mobile phones.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Sense Beacon</title>
@@ -77,15 +18,7 @@
       
       <guid>https://www.danielknox.co.uk/portfolio/work3/</guid>
       <description>&lt;p&gt;A low-powered environmental sensing device, which combines LoRaWAN™ for long range data transmission and Bluetooth LE for presence announcement, and device maintenance.
-&lt;/p&gt;
-
-&lt;p&gt;The Sense Beacon is designed to utilise a NRF52 micro-processor with my &amp;lsquo;Xbee Format&amp;rsquo; LoRaWAN™ module (based on the RN2483). This provides a platform that, not only, can communicate over long distances, but also communicate locally. The purpose of the BLE communication (provided by the NRF52) is to provide a short-ranged beaconing service based on Eddystone. Two Eddystone frame types are used, the TLM frame provides telemetry data (voltage/time alive/soc temperature) and the UID frame is registered with the Google Beacon Platform to provide proximity based information.&lt;/p&gt;
-
-&lt;p&gt;The Sense Beacon uses an RTOS to periodically take environmental readings from I2C sensors and, once a number of samples have been taken, transmit these over LoRaWAN™; the RTOS also maintains the Eddystone beaconing. The code can identify and appropriately handle a variety of network issues, has exponential back off with jittering when attempting to resend messages and takes precautions for thread safety.&lt;/p&gt;
-
-&lt;p&gt;Upon power-on the beacon briefly enters a period whereby a user can reconfigure many of the settings of the sense device; if a user is connected to the sense device it will remain in this state until configuration is complete - after this the battery must be removed and re-inserted to re-enable device configuration.&lt;/p&gt;
-
-&lt;p&gt;The power efficiency of the device allows it to run from a single coin cell battery, but external pin-outs are provided in case a larger battery is required for current-hungry sensors. Whilst I intend the Sense Device to use LoRaWAN™, the Xbee header does provide the ability to swap this device out for Zigbee / other XBEE format daughterboard.&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -95,23 +28,7 @@
       
       <guid>https://www.danielknox.co.uk/portfolio/work4/</guid>
       <description>&lt;p&gt;A model demonstrating how the &amp;lsquo;Internet of Things&amp;rsquo; can be used to enhance existing public services.
-&lt;/p&gt;
-
-&lt;p&gt;The smart Lego city was built to accompany a &amp;lsquo;masterclass&amp;rsquo; training session we provided for Kent County Council&amp;rsquo;s &amp;lsquo;Kent Connects&amp;rsquo; partnership. The event provided presentation on a range of topics including: potential applications; data acquisition; commercial IoT infrastructures; the nuts-and-bolts of IoT systems e.g. what is possible, how this is achieved, and the standardisation process; legal responsibility; data analysis and storage; security; policies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.danielknox.co.uk/img/portfolio/legocity-mayor.jpg&#34; alt=&#34;Lego City at ICE Showcase Event&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Lego City was designed to showcase the potential of a smart-city and to provide a tangible interaction for the participants; the presentations, as much as possible, linked with aspects of the Lego City.&lt;/p&gt;
-
-&lt;p&gt;The Cities capabilities included:
-* Congestion monitoring.
-* An adaptive pedestrian crossing, which identified peak use times and enabled &amp;lsquo;on-demand lighting&amp;rsquo; during low-use hours.
-* Bin-level monitoring
-* Noise pollution monitoring
-* Audio announcements on mobile phones for users with sight disabilities (bus arrivals, etc.)
-* Street lighting which responds to traffic-flow.&lt;/p&gt;
-
-&lt;p&gt;The city provided this functionality by utilising a diverse range of sensors and embedded systems  communicating using many different technologies: Zigbee, wired ethernet, WiFi, LoRaWAN, etc.&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -121,11 +38,7 @@
       
       <guid>https://www.danielknox.co.uk/portfolio/work2/</guid>
       <description>&lt;p&gt;A free, public system which enables groups of makers, students and local government to deploy &amp;lsquo;Internet Of Things&amp;rsquo; type devices, and have them communicate over large distances.
-&lt;/p&gt;
-
-&lt;p&gt;LoRaWAN™ is a protocol designed for creating large-scale public networks; the technology allows for sensors to talk to the internet without 3G or WiFi. LoRaWAN™ is predominantly based on a star topography, with a single gateway serving many nodes. Community crowdsourced projects, such as The Things Network, aim to provide access to this technology by deploying gateways globally that others can freely connect to.&lt;/p&gt;
-
-&lt;p&gt;In the coming months a number of these gateways will be built and installed across Kent. The ultimate aim is to provide a free, public system that would allow groups of makers, students, local government, etc. to design and install devices to communicate with the Internet.&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,19 +47,7 @@
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
       <guid>https://www.danielknox.co.uk/portfolio/work6/</guid>
-      <description>&lt;p&gt;Each year I set a final year project that utilises our drone squadron and ROS.&lt;/p&gt;
-
-&lt;h5 id=&#34;2015-2016&#34;&gt;2015-2016&lt;/h5&gt;
-
-&lt;p&gt;For this project the students were tasked with using the drones for a &amp;lsquo;Search &amp;amp; Rescue&amp;rsquo; scenario. The students were informed that they had to develop a system that would optimise the searching of a defined area for N number of drones. In addition the drones must take into consideration their limited battery life and be able to recover from a failure in the squadron. A hardware modification was made to the AR 2 Drones so that their front facing cameras face downwards this was to improve their detection capability at height.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sJG8iCRRg_0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h5 id=&#34;2014-2015&#34;&gt;2014-2015&lt;/h5&gt;
-
-&lt;p&gt;For this project the students were tasked with using the drones for a formation flying scenario. The students were informed that the drones had to fly completely autonomously or under the guidance of a &amp;lsquo;squadron leader&amp;rsquo;. The group of students used openCV to allow the drones to see and identify each other. Using this information the group were able to position each drone in 3D space and co-ordinate their movements. A PID was also developed to help stablise flight.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kEiH-e1787Q&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+      <description>&lt;p&gt;Each year I set a final year project that utilises our drone squadron and ROS.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -156,15 +57,7 @@
       
       <guid>https://www.danielknox.co.uk/portfolio/work5/</guid>
       <description>&lt;p&gt;My second bot for Tinkersoc&amp;rsquo;s ant-weight robot wars.
-&lt;/p&gt;
-
-&lt;p&gt;TinkerSoc have now allowed destructive robots into their ‘ant weight’ robot wars. As before, bots have 150 grams’ weight limit and must fit within a 4&amp;rdquo; cubed box. To take advantage of this, I have decided to attempt to build a &amp;lsquo;spinner&amp;rsquo; bot called &amp;lsquo;Rembrandt&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;Whereas &amp;lsquo;Orphan Black&amp;rsquo; was designed to keep weight as low as possible, this robot utilises the full weight limit. As such, electronic control has moved to a more traditional RC setup with fail-safe. A brushless motor drives the main weapon - a 30 gram, welded, steel hammer arm; this in turn is driven by a 12A ESC that uses my own version of Simon K&amp;rsquo;s firmware.&lt;/p&gt;
-
-&lt;p&gt;The chassis uses a simple &amp;lsquo;A&amp;rsquo; frame design and is produced on a hobby-grade FDM 3D printer - this allows me to keep more spare parts as I am expecting to incur more damage with this robot. The wheels are located on the outside of the robot and are made from neoprene with aluminium hubs. Whilst exposed wheels may seem like a dumb idea, it helps Rembrandt to counter the effect of the spinner weapon; I also use trimming to compensate the &amp;lsquo;gyro&amp;rsquo; effect as the spinner accelerates.&lt;/p&gt;
-
-&lt;p&gt;Rembrandt is yet to be proved in battle and is still going through some minor design revisions to ensure its internals are as secure as possible, but hopefully it&amp;rsquo;ll put on a good show!&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -174,15 +67,37 @@
       
       <guid>https://www.danielknox.co.uk/portfolio/work7/</guid>
       <description>&lt;p&gt;An adapter for LoRaWAN™
-&lt;/p&gt;
-
-&lt;p&gt;The RN2483 is a module that embeds the LoRaWAN™ Class A protocol. This allows a developer to rapidly connect to public/privately owned LoRaWAN compliant networks.&lt;/p&gt;
-
-&lt;p&gt;As I use to use a lot of Xbee devices to create Zigbee based networks, I&amp;rsquo;ve become quite use to the format (despite its breadboard unfriendly format). As such, I designed a small breakout shield to allow me to drop-in the RN2483 into existing designs.&lt;/p&gt;
-
-&lt;p&gt;By ditching the &amp;lsquo;arrow&amp;rsquo; shape of the Xbee, I&amp;rsquo;m able to support two antenna connectors (433 MHz and 868 MHz). The pad for the antenna connectors allow the choice between edge SMA, SMT UFL or a little bit of wire, whichever best suits the desired application.&lt;/p&gt;
-
-&lt;p&gt;Whilst I currently only breakout the required, power, serial and reset pins. A future version will route the extra GPIO in a similar way as the Digi Xbees.&lt;/p&gt;</description>
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Boat Ver.1 </title>
+      <link>https://www.danielknox.co.uk/portfolio/work9/</link>
+      <pubDate>Tue, 10 Jan 2017 09:29:55 +0000</pubDate>
+      
+      <guid>https://www.danielknox.co.uk/portfolio/work9/</guid>
+      <description>&lt;p&gt;An autonomous boat
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zero Security</title>
+      <link>https://www.danielknox.co.uk/portfolio/work8/</link>
+      <pubDate>Mon, 09 Jan 2017 15:46:56 +0000</pubDate>
+      
+      <guid>https://www.danielknox.co.uk/portfolio/work8/</guid>
+      <description>&lt;p&gt;A home security device
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Antweight Cluster Bot</title>
+      <link>https://www.danielknox.co.uk/portfolio/work1/</link>
+      <pubDate>Sun, 13 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>https://www.danielknox.co.uk/portfolio/work1/</guid>
+      <description>&lt;p&gt;My entry into Tinkersoc&amp;rsquo;s first ant-weight robot wars - Two 70 gram wedge-bots.
+&lt;/p&gt;</description>
     </item>
     
   </channel>
